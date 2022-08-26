@@ -1,10 +1,11 @@
 import React from 'react';
-import person from './images/person.jpg';
-import people from './images/people.jpg'
+import person from './images/person.png';
+import people from './images/people.png';
+import family from './images/family.png'
 
 export default function Areas(){
     return(
-        <section className='section-areas'>
+        <section id='services' className='section-areas'>
             <div>
                 <h2>Areas of Practise</h2>
                 <p>Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
@@ -18,13 +19,13 @@ export default function Areas(){
                          Laborum est ad aliquip anim qui. </p>
                 </div>
                 <div>
-                    <img src={person} alt='person' />
+                    <img src={people} alt='person' />
                     <h3>CRIMINAL LAW</h3>
                     <p>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui. 
                         Laborum est ad aliquip anim qui. </p>
                 </div>
                 <div>
-                <img src={people} alt='people' />
+                <img src={family} alt='family' />
                 <h3>FAMILY LAW</h3>
                 <p>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui .
                      Laborum est ad aliquip anim qui. </p>

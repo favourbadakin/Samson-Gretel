@@ -6,7 +6,7 @@ import partner from './images/partner.jpg';
 
 export default function Team(){
     return(
-    <section className='section-team'>
+    <section id='our-team' className='section-team'>
         <div>
             <h2>Meet Our Team</h2>
             <p>Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>

@@ -7,7 +7,9 @@ import Who from './Who';
 import Request from './Request';
 import Areas from './Areas';
 import Team from './Team';
-import Saying from './Saying'
+import Saying from './Saying';
+import Prefooter from './Prefooter';
+import Footer from './Footer';
 // import Extra from './Extra';
 import reportWebVitals from './reportWebVitals';
 
@@ -21,6 +23,8 @@ root.render(
     <Request />
     <Team />
     <Saying />
+    <Prefooter />
+    <Footer />
     {/* <Extra /> */}
   </React.StrictMode>
 ); 

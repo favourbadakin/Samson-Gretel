@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Who(){
     return(
-        <section className='section-who'>
+        <section id='about-us' className='section-who'>
             <div className='who-wrap'>
                 <h2>Who We Are</h2>
                 <p>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui ut. 
