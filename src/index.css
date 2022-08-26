@@ -6,13 +6,6 @@
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.8;
 }
-fonts{
-  font-family: 'Catamaran', sans-serif;
-  font-family: 'DM Sans', sans-serif;
-  font-family: 'Lora', serif;
-  font-family: 'Nunito Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
 .btn{
   padding: 12px 36px;
   background-color: #B89B5E;
@@ -41,11 +34,10 @@ h1{
   font-family: 'Lora', serif;
   font-weight: 400;
 }
-header h3{
+header h3>a{
   color: #B89B5E;
   font-family: 'Lora', sans-serif;
   font-weight: 700;
-
 }
 nav{
   display: flex;
@@ -53,6 +45,17 @@ nav{
   text-transform: uppercase;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #464657;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding: 8px 24px 8px 24px;
 }
 .nav-a:hover{
   color: #B89B5E;
@@ -261,6 +264,21 @@ figcaption{
   text-align: center;
   padding: 36px 64px 48px 64px;
 }
+.section-footer a{
+  color: #B89B5E;
+}
+.facebook:hover{
+  color: #3B5998;
+  transition: 0.2s;
+}
+.instagram:hover{
+  color: #CD486B;
+  transition: 0.2s;
+}
+.twitter:hover{
+  color: #1DA1F2;
+  transition: 0.2s
+}
 .section-footer > div{
   display: flex;
   justify-content: space-between;
@@ -282,6 +300,7 @@ header{
   background: linear-gradient(rgba(26, 27, 48, 0.8), rgba(26, 27, 48, 0.8)),url('./images/header.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .hamburger{
   display: none;
@@ -357,17 +376,7 @@ h1{
     overflow: hidden;
     flex-direction: column;
 }
-.is-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  background-color: #464657;
-  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  padding: 8px 24px 8px 24px;
-}
+
 .nav-ul .btn{
   display: none;
 }
@@ -400,7 +409,8 @@ nav{
 .header-wrap{
   background: linear-gradient(rgba(26, 27, 48, 0.8), rgba(26, 27, 48, 0.8)),url('./images/header.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position-x: center;
   text-align: center;
   padding: 32px 0 2% 0;
 }
@@ -408,8 +418,8 @@ nav{
   margin-bottom: 12px;
 }
 h1{
-  font-size: 1.0rem;
-  width: 240px;
+  font-size: 1.6rem;
+  width: 320px;
   margin: 0 auto 12px auto;
 }
 .section-numbers{
@@ -450,6 +460,9 @@ h1{
 }
 .section-footer > div{
   flex-direction: column;
+}
+.fav{
+  margin: 16px 0;
 }
 .footer-flex{
   flex-direction: column;

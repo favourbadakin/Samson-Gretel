@@ -9,12 +9,12 @@ export default function Footer(){
             <div>
                 <div className='footer-flex'>
                     <p>Copyright 2022</p>
-                    <p>Designed with love by Fave⚡</p>
+                    <p className='fav'><a className='twitter' href='https://www.twitter.com/fav_bdk'>Developed with love by Fave⚡</a></p>
                 </div>
                 <div className='icon-wrap'>
-                    <span><GrFacebookOption /></span>
-                    <span><AiFillInstagram /></span>
-                    <span><BsTwitter /></span>
+                    <a className='facebook' href='/#'><GrFacebookOption /></a>
+                    <a className='instagram' href='/#'><AiFillInstagram /></a>
+                    <a className='twitter' href='https://www.twitter.com/fav_bdk'><BsTwitter /></a>
                 </div>
             </div>
         </section>

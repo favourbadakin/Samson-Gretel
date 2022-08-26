@@ -17,17 +17,17 @@ export default function Header(){
         });
     
                
-        /* Method that will fix header after a specific scrollable */
+        /* Method that will fix header after a 250 scrollable */
                const isSticky = (e) => {
                     const header = document.querySelector('.nav-section');
                     const scrollTop = window.scrollY;
-                    scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+                    scrollTop >= 300 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
                 };
 
     return(
         <header>
             <nav className='nav-section'>
-                <h3>Samson &#38; Gretel</h3>
+                <h3><a href='./#'>Samson &#38; Gretel</a></h3>
                 <ul className={`nav-ul ${isOpen ? " nav-ul" : "showMenu"}`}>
                     <li><a className='nav-a' href='/#'>Home</a></li>
                     <li><a className='nav-a' href='#about-us'>About Us</a></li>
