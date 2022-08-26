@@ -14,20 +14,20 @@ export default function Areas(){
                 <div>
                     <img src={person} alt='person' />
                     <h3>FINANCE LAW</h3>
-                    <p>Aliqua culpa cillum amet elit 
+                    <p className='areas-p'>Aliqua culpa cillum amet elit 
                         dolore quis sint labore ea eiusmod pariatur sit qui. 
                          Laborum est ad aliquip anim qui. </p>
                 </div>
                 <div>
                     <img src={people} alt='person' />
                     <h3>CRIMINAL LAW</h3>
-                    <p>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui. 
+                    <p className='areas-p'>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui. 
                         Laborum est ad aliquip anim qui. </p>
                 </div>
                 <div>
                 <img src={family} alt='family' />
                 <h3>FAMILY LAW</h3>
-                <p>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui .
+                <p className='areas-p'>Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui .
                      Laborum est ad aliquip anim qui. </p>
                 </div>
               </div>
