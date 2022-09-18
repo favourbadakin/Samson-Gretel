@@ -17,7 +17,7 @@ export default function Header(){
         });
     
                
-        /* Method that will fix header after a 250 scrollable */
+        /* Method that will fix header after 'set' scrollable */
                const isSticky = (e) => {
                     const header = document.querySelector('.nav-section');
                     const scrollTop = window.scrollY;
